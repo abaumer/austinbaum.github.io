@@ -1,0 +1,372 @@
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+header,
+nav {
+    display: block
+}
+
+a {
+    background-color: transparent
+}
+
+a:active,
+a:hover {
+    outline: 0
+}
+
+/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+@media print {
+
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline
+    }
+
+    a[href]:after {
+        content: " ("attr(href) ")"
+    }
+
+    .navbar {
+        display: none
+    }
+}
+
+* {
+    box-sizing: border-box
+}
+
+*:before,
+*:after {
+    box-sizing: border-box
+}
+
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none
+}
+
+a:hover,
+a:focus {
+    color: #23527c;
+    text-decoration: underline
+}
+
+a:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+@media (min-width:768px) {
+    .container {
+        width: 750px
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        width: 970px
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        width: 1140px
+    }
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px
+}
+
+.col-sm-3,
+.col-xs-8 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.col-xs-8 {
+    float: left
+}
+
+.col-xs-8 {
+    width: 66.66666667%
+}
+
+@media (min-width:768px) {
+
+    .col-sm-3 {
+        float: left
+    }
+
+    .col-sm-3 {
+        width: 25%
+    }
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent
+}
+
+@media (min-width:768px) {
+    .navbar {
+        border-radius: 4px
+    }
+}
+
+@media (min-width:768px) {
+    .navbar-header {
+        float: left
+    }
+}
+
+.container:before,
+.container:after,
+.row:before,
+.row:after,
+.navbar:before,
+.navbar:after,
+.navbar-header:before,
+.navbar-header:after {
+    content: " ";
+    display: table
+}
+
+.container:after,
+.row:after,
+.navbar:after,
+.navbar-header:after {
+    clear: both
+}
+
+@-ms-viewport {
+    width: device-width
+}
+
+html {
+    font-size: 14px
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.02);
+    color: #3C4B4E;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+@media (min-height:768px) {
+    body {
+        font-size: 18px
+    }
+}
+
+a {
+    color: #000000;
+    font-size: inherit;
+    transition: color .4s ease, background-color .3s ease;
+    border-bottom: none;
+    padding-bottom: 3px;
+    padding-top: 4px;
+    text-decoration: none
+}
+
+a:active,
+a:focus,
+a:hover {
+    color: #42B49A;
+    outline: 0;
+    text-decoration: underline;
+    background-color: transparent
+}
+
+@media (max-width:768px) {
+    .row {
+        margin: 0
+    }
+}
+
+.site-header {
+    padding-right: 0;
+    transition: background .3s ease-in-out;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 50;
+    background: #FFFFFE
+}
+
+.site-header .navbar {
+    margin-bottom: 0;
+    min-height: 50px;
+    border: none
+}
+
+.site-header .navbar-header {
+    display: block;
+    width: 100%;
+    height: 55px;
+    border: none;
+    z-index: 101
+}
+
+.site-header .brand {
+    margin: 0;
+    z-index: 50;
+    max-height: none;
+    max-width: none;
+    position: relative;
+    padding: 0;
+    padding-left: 0;
+    padding-top: 25px;
+    display: block;
+    border: none;
+    background-color: transparent
+}
+
+.site-header .brand:after {
+    content: none
+}
+
+.home .site-header {
+    position: absolute;
+    background: transparent
+}
+
+@media (min-width:768px) {
+    .site-header {
+        padding-right: 10px;
+        position: relative;
+        background: transparent
+    }
+
+    .navbar {
+        height: 60px
+    }
+
+    .navbar .brand {
+        max-height: 60px;
+        max-width: 240px;
+        margin-left: 10px
+    }
+
+    .navbar .brand:hover,
+    .navbar .brand:focus {
+        text-decoration: none;
+        border: none
+    }
+}
+
+html {
+    background-color: #FFFFFE;
+    height: 100%;
+    overflow-y: scroll
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-top: 0;
+    display: block;
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    margin-top: 0;
+    padding: 0;
+    background: #FFFFFE
+}
+
+.container {
+    padding-left: 5px;
+    padding-right: 5px
+}
+
+@media (min-width:768px) {
+
+    .container {
+        padding-left: 15px;
+        padding-right: 15px
+    }
+}
+
+::-webkit-input-placeholder {
+    color: #555
+}
+
+:-moz-placeholder {
+    color: #555
+}
+
+::-moz-placeholder {
+    color: #555
+}
+
+:-ms-input-placeholder {
+    color: #555
+}
+
+@supports (-moz-appearance:meterbar) {}
+
+@supports not (aspect-ratio: auto) {}
+
+@supports not (aspect-ratio: auto) {}
+
+.home {
+    background: #ffffff;
+}
+
+
+// OTHER PAGES
+.page .hero {
+    height: auto;
+}
+
+@supports not (aspect-ratio: auto) {}
+
+@supports not (aspect-ratio: auto) {}
